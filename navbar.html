@@ -1,0 +1,1022 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: lightgray;
+        }
+
+        .tej {
+            background-color: rgb(182, 120, 120);
+            width: 500px;
+            height: 100%;
+            padding: 30px 20px 30px 10px;
+            border-color: 10px solid rgb(184, 209, 43);
+            border-radius: 5%;
+            text-align: center;
+            margin: 50px;
+            display: inline-block;
+        }
+
+        .same {
+            background-color: rgba(2, 235, 204, 0.863);
+            width: 500px;
+            height: 100%;
+            padding: 30px 20px 30px 10px;
+            border-color: 10px solid rgb(90, 94, 112);
+            border-radius: 5%;
+            text-align: center;
+            margin: 50px;
+            display: inline-block;
+        }
+
+        button {
+            background-color: black;
+            color: white;
+            border-radius: 20px;
+        }
+
+        .nav {
+            background-color: red;
+            width: 500px;
+            height: 100%;
+            padding: 30px 20px 30px 10px;
+            border-color: 10px solid rgb(90, 94, 112);
+            border-radius: 5%;
+            text-align: center;
+            margin: 50px;
+            display: inline-block;
+        }
+
+        button {
+            background-color: black;
+            color: white;
+            border-radius: 20px;
+        }
+
+        .nav1 {
+            background-color: aqua;
+            width: 500px;
+            height: 100%;
+            padding: 30px 20px 30px 10px;
+            border-color: 10px solid rgb(90, 94, 112);
+            border-radius: 5%;
+            text-align: center;
+            margin: 50px;
+            display: inline-block;
+        }
+
+        button {
+            background-color: black;
+            color: white;
+            border-radius: 20px;
+        }
+
+        .nav2 {
+            background-color: rgb(103, 216, 118);
+            width: 500px;
+            height: 100%;
+            padding: 30px 20px 30px 10px;
+            border-color: 10px solid rgb(90, 94, 112);
+            border-radius: 5%;
+            text-align: center;
+            margin: 50px;
+            display: inline-block;
+        }
+
+        .nav3 {
+            background-color: rgb(148, 177, 23);
+            width: 500px;
+            height: 100%;
+            padding: 30px 20px 30px 10px;
+            border-color: 10px solid rgb(90, 94, 112);
+            border-radius: 5%;
+            text-align: center;
+            margin: 50px;
+            display: inline-block;
+        }
+
+        .nav4 {
+            background-color: rgb(63, 37, 105);
+            width: 500px;
+            height: 100%;
+            padding: 30px 20px 30px 10px;
+            border-color: 10px solid rgb(90, 94, 112);
+            border-radius: 5%;
+            text-align: center;
+            margin: 50px;
+            display: inline-block;
+        }
+
+        .nav5 {
+            background-color: rgb(184, 103, 137);
+            width: 500px;
+            height: 100%;
+            padding: 30px 20px 30px 10px;
+            border-color: 10px solid rgb(90, 94, 112);
+            border-radius: 5%;
+            text-align: center;
+            margin: 50px;
+            display: inline-block;
+        }
+
+        .nav6 {
+            background-color: rgb(54, 34, 128);
+            width: 200px;
+            height: 50%;
+            padding: 30px 20px 30px 10px;
+            border-color: 10px solid rgb(90, 94, 112);
+            border-radius: 5%;
+            text-align: center;
+            margin: 50px;
+            display: inline-block;
+        }
+
+        .nav7 {
+            background-color: rgb(54, 34, 128);
+            width: 200px;
+            height: 50%;
+            padding: 30px 20px 30px 10px;
+            border-color: 10px solid rgb(90, 94, 112);
+            border-radius: 5%;
+            text-align: center;
+            margin: 50px;
+            display: inline-block;
+        }
+
+        .nav8 {
+            background-color: rgb(54, 34, 128);
+            width: 200px;
+            height: 50%;
+            padding: 30px 20px 30px 10px;
+            border-color: 10px solid rgb(90, 94, 112);
+            border-radius: 5%;
+            text-align: center;
+            margin: 50px;
+            display: inline-block;
+        }
+
+        .nav9 {
+            background-color: rgb(54, 34, 128);
+            width: 200px;
+            height: 50%;
+            padding: 30px 20px 30px 10px;
+            border-color: 10px solid rgb(90, 94, 112);
+            border-radius: 5%;
+            text-align: center;
+            margin: 50px;
+            display: inline-block;
+        }
+
+        .nav10 {
+            background-color: rgb(101, 186, 235);
+            width: 200px;
+            height: 50%;
+            padding: 30px 20px 30px 10px;
+            border-color: 10px solid rgb(90, 94, 112);
+            border-radius: 5%;
+            text-align: center;
+            margin: 50px;
+            display: inline-block;
+        }
+
+        .nav11 {
+            background-color: rgb(101, 186, 235);
+            width: 200px;
+            height: 50%;
+            padding: 30px 20px 30px 10px;
+            border-color: 10px solid rgb(90, 94, 112);
+            border-radius: 5%;
+            text-align: center;
+            margin: 50px;
+            display: inline-block;
+        }
+
+        .nav12 {
+            background-color: rgb(101, 186, 235);
+            width: 200px;
+            height: 50%;
+            padding: 30px 20px 30px 10px;
+            border-color: 10px solid rgb(90, 94, 112);
+            border-radius: 5%;
+            text-align: center;
+            margin: 50px;
+            display: inline-block;
+        }
+
+        .nav13 {
+            background-color: rgb(101, 186, 235);
+            width: 200px;
+            height: 50%;
+            padding: 30px 20px 30px 10px;
+            border-color: 10px solid rgb(90, 94, 112);
+            border-radius: 5%;
+            text-align: center;
+            margin: 50px;
+            display: inline-block;
+        }
+
+        .nav14 {
+            background-color: rgb(126, 173, 37);
+            width: 200px;
+            height: 50%;
+            padding: 30px 20px 30px 10px;
+            border-color: 10px solid rgb(90, 94, 112);
+            border-radius: 5%;
+            text-align: center;
+            margin: 50px;
+            display: inline-block;
+        }
+
+        .nav15 {
+            background-color: rgb(126, 173, 37);
+            width: 200px;
+            height: 50%;
+            padding: 30px 20px 30px 10px;
+            border-color: 10px solid rgb(90, 94, 112);
+            border-radius: 5%;
+            text-align: center;
+            margin: 50px;
+            display: inline-block;
+        }
+
+        .nav16 {
+            background-color: rgb(126, 173, 37);
+            width: 200px;
+            height: 50%;
+            padding: 30px 20px 30px 10px;
+            border-color: 10px solid rgb(90, 94, 112);
+            border-radius: 5%;
+            text-align: center;
+            margin: 50px;
+            display: inline-block;
+        }
+
+        .nav17 {
+            background-color: rgb(126, 173, 37);
+            width: 200px;
+            height: 50%;
+            padding: 30px 20px 30px 10px;
+            border-color: 10px solid rgb(90, 94, 112);
+            border-radius: 5%;
+            text-align: center;
+            margin: 50px;
+            display: inline-block;
+        }
+
+        .nav18 {
+            background-color: rgb(163, 230, 8);
+            width: 200px;
+            height: 50%;
+            padding: 30px 20px 30px 10px;
+            border-color: 10px solid rgb(90, 94, 112);
+            border-radius: 5%;
+            text-align: center;
+            margin: 50px;
+            display: inline-block;
+        }
+
+        .nav19 {
+            background-color: rgb(163, 230, 8);
+            width: 200px;
+            height: 50%;
+            padding: 30px 20px 30px 10px;
+            border-color: 10px solid rgb(90, 94, 112);
+            border-radius: 5%;
+            text-align: center;
+            margin: 50px;
+            display: inline-block;
+        }
+
+        .nav20 {
+            background-color: rgb(163, 230, 8);
+            width: 200px;
+            height: 50%;
+            padding: 30px 20px 30px 10px;
+            border-color: 10px solid rgb(90, 94, 112);
+            border-radius: 5%;
+            text-align: center;
+            margin: 50px;
+            display: inline-block;
+        }
+
+        .nav21 {
+            background-color: rgb(163, 230, 8);
+            width: 200px;
+            height: 50%;
+            padding: 30px 20px 30px 10px;
+            border-color: 10px solid rgb(90, 94, 112);
+            border-radius: 5%;
+            text-align: center;
+            margin: 50px;
+            display: inline-block;
+        }
+
+        .nav22 {
+            background-color: rgb(155, 34, 145);
+            width: 200px;
+            height: 50%;
+            padding: 30px 20px 30px 10px;
+            border-color: 10px solid rgb(90, 94, 112);
+            border-radius: 5%;
+            text-align: center;
+            margin: 50px;
+            display: inline-block;
+        }
+
+        .nav23 {
+            background-color: rgb(155, 34, 145);
+            width: 200px;
+            height: 50%;
+            padding: 30px 20px 30px 10px;
+            border-color: 10px solid rgb(90, 94, 112);
+            border-radius: 5%;
+            text-align: center;
+            margin: 50px;
+            display: inline-block;
+        }
+
+        .nav24 {
+            background-color: rgb(155, 34, 145);
+            width: 200px;
+            height: 50%;
+            padding: 30px 20px 30px 10px;
+            border-color: 10px solid rgb(90, 94, 112);
+            border-radius: 5%;
+            text-align: center;
+            margin: 50px;
+            display: inline-block;
+        }
+
+        .nav25 {
+            background-color: rgb(155, 34, 145);
+            width: 200px;
+            height: 50%;
+            padding: 30px 20px 30px 10px;
+            border-color: 10px solid rgb(90, 94, 112);
+            border-radius: 5%;
+            text-align: center;
+            margin: 50px;
+            display: inline-block;
+        }
+
+        .nav26 {
+            background-color: rgb(138, 255, 127);
+            width: 200px;
+            height: 50%;
+            padding: 30px 20px 30px 10px;
+            border-color: 10px solid rgb(90, 94, 112);
+            border-radius: 5%;
+            text-align: center;
+            margin: 50px;
+            display: inline-block;
+        }
+
+        .nav27 {
+            background-color: rgb(138, 255, 127);
+            width: 200px;
+            height: 50%;
+            padding: 30px 20px 30px 10px;
+            border-color: 10px solid rgb(90, 94, 112);
+            border-radius: 5%;
+            text-align: center;
+            margin: 50px;
+            display: inline-block;
+        }
+
+        .nav28 {
+            background-color: rgb(138, 255, 127);
+            width: 200px;
+            height: 50%;
+            padding: 30px 20px 30px 10px;
+            border-color: 10px solid rgb(90, 94, 112);
+            border-radius: 5%;
+            text-align: center;
+            margin: 50px;
+            display: inline-block;
+        }
+
+        .nav29 {
+            background-color: rgb(138, 255, 127);
+            width: 200px;
+            height: 50%;
+            padding: 30px 20px 30px 10px;
+            border-color: 10px solid rgb(90, 94, 112);
+            border-radius: 5%;
+            text-align: center;
+            margin: 50px;
+            display: inline-block;
+        }
+
+        .nav30 {
+            background-color: rgb(88, 92, 52);
+            width: 200px;
+            height: 50%;
+            padding: 30px 20px 30px 10px;
+            border-color: 10px solid rgb(90, 94, 112);
+            border-radius: 5%;
+            text-align: center;
+            margin: 50px;
+            display: inline-block;
+
+        }
+
+        .nav31 {
+            background-color: rgb(88, 92, 52);
+            width: 200px;
+            height: 50%;
+            padding: 30px 20px 30px 10px;
+            border-color: 10px solid rgb(90, 94, 112);
+            border-radius: 5%;
+            text-align: center;
+            margin: 50px;
+            display: inline-block;
+
+        }
+
+        .nav32 {
+            background-color: rgb(88, 92, 52);
+            width: 200px;
+            height: 50%;
+            padding: 30px 20px 30px 10px;
+            border-color: 10px solid rgb(90, 94, 112);
+            border-radius: 5%;
+            text-align: center;
+            margin: 50px;
+            display: inline-block;
+
+        }
+
+        .nav33 {
+            background-color: rgb(88, 92, 52);
+            width: 200px;
+            height: 50%;
+            padding: 30px 20px 30px 10px;
+            border-color: 10px solid rgb(90, 94, 112);
+            border-radius: 5%;
+            text-align: center;
+            margin: 50px;
+            display: inline-block;
+
+        }
+
+        .nav34 {
+            background-color: rgb(193, 123, 196);
+            width: 200px;
+            height: 50%;
+            padding: 30px 20px 30px 10px;
+            border-color: 10px solid rgb(90, 94, 112);
+            border-radius: 5%;
+            text-align: center;
+            margin: 50px;
+            display: inline-block;
+
+        }
+
+        .nav35 {
+            background-color: rgb(193, 123, 196);
+            width: 200px;
+            height: 50%;
+            padding: 30px 20px 30px 10px;
+            border-color: 10px solid rgb(90, 94, 112);
+            border-radius: 5%;
+            text-align: center;
+            margin: 50px;
+            display: inline-block;
+
+        }
+
+        .nav36 {
+            background-color: rgb(193, 123, 196);
+            width: 200px;
+            height: 50%;
+            padding: 30px 20px 30px 10px;
+            border-color: 10px solid rgb(90, 94, 112);
+            border-radius: 5%;
+            text-align: center;
+            margin: 50px;
+            display: inline-block;
+
+        }
+
+        .nav37 {
+            background-color: rgb(193, 123, 196);
+            width: 200px;
+            height: 50%;
+            padding: 30px 20px 30px 10px;
+            border-color: 10px solid rgb(90, 94, 112);
+            border-radius: 5%;
+            text-align: center;
+            margin: 50px;
+            display: inline-block;
+
+        }
+
+        .nav38 {
+            background-color: rgb(221, 173, 16);
+            width: 200px;
+            height: 50%;
+            padding: 30px 20px 30px 10px;
+            border-color: 10px solid rgb(90, 94, 112);
+            border-radius: 5%;
+            text-align: center;
+            margin: 50px;
+            display: inline-block;
+
+        }
+
+        .nav39 {
+            background-color: rgb(221, 173, 16);
+            width: 200px;
+            height: 50%;
+            padding: 30px 20px 30px 10px;
+            border-color: 10px solid rgb(90, 94, 112);
+            border-radius: 5%;
+            text-align: center;
+            margin: 50px;
+            display: inline-block;
+
+        }
+
+        .nav40 {
+            background-color: rgb(221, 173, 16);
+            width: 200px;
+            height: 50%;
+            padding: 30px 20px 30px 10px;
+            border-color: 10px solid rgb(90, 94, 112);
+            border-radius: 5%;
+            text-align: center;
+            margin: 50px;
+            display: inline-block;
+
+        }
+
+        .nav41 {
+            background-color: rgb(221, 173, 16);
+            width: 200px;
+            height: 50%;
+            padding: 30px 20px 30px 10px;
+            border-color: 10px solid rgb(90, 94, 112);
+            border-radius: 5%;
+            text-align: center;
+            margin: 50px;
+            display: inline-block;
+
+        }
+
+        .nav42 {
+            background-color: rgb(28, 116, 25);
+            width: 500px;
+            height: 100%;
+            padding: 30px 20px 30px 10px;
+            border-color: 10px solid rgb(90, 94, 112);
+            border-radius: 5%;
+            text-align: center;
+            margin: 50px;
+            display: inline-block;
+        }
+
+        .nav43 {
+            background-color: rgb(199, 66, 66);
+            width: 500px;
+            height: 100%;
+            padding: 30px 20px 30px 10px;
+            border-color: 10px solid rgb(90, 94, 112);
+            border-radius: 5%;
+            text-align: center;
+            margin: 50px;
+            display: inline-block;
+        }
+
+        .nav44 {
+            background-color: rgb(67, 93, 206);
+            width: 500px;
+            height: 100%;
+            padding: 30px 20px 30px 10px;
+            border-color: 10px solid rgb(90, 94, 112);
+            border-radius: 5%;
+            text-align: center;
+            margin: 50px;
+            display: inline-block;
+        }
+
+        .nav45 {
+            background-color: rgb(114, 83, 197);
+            width: 500px;
+            height: 100%;
+            padding: 30px 20px 30px 10px;
+            border-color: 10px solid rgb(90, 94, 112);
+            border-radius: 5%;
+            text-align: center;
+            margin: 50px;
+            display: inline-block;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .tej:hover {
+            background-color: gray;
+            color: white;
+        }
+        .same:hover{
+            background-color: red;
+            color: white;
+        }
+        .nav:hover{
+            background-color: yellow;
+            color: azure;
+        }
+        .nav1:hover{
+            background-color: rgb(182, 18, 18);
+            color: white;
+        }
+        .nav2:hover{
+            background-color: black;
+            color: white;
+        }
+        .nav3:hover{
+            background-color: black;
+            color: white;
+        }
+        .nav4:hover{
+            background-color: black;
+            color: white;
+        }
+        .nav5:hover{
+            background-color: black;
+            color: white;
+        }
+        .nav6:hover{
+            background-color: black;
+            color: white;
+        }
+        .nav7:hover{
+            background-color: black;
+            color: white;
+        }
+        .nav8:hover{
+            background-color: black;
+            color: white;
+        }
+        .nav9:hover{
+            background-color: black;
+            color: white;
+        }
+        .nav10:hover{
+            background-color: black;
+            color: white;
+        }
+        .nav11:hover{
+            background-color: black;
+            color: white;
+        }
+        .nav12:hover{
+            background-color: black;
+            color: white;
+        }
+        .nav13:hover{
+            background-color: black;
+            color: white;
+        }
+        .nav14:hover{
+            background-color: black;
+            color: white;
+        }
+        .nav15:hover{
+            background-color: black;
+            color: white;
+        }
+        .nav16:hover{
+            background-color: black;
+            color: white;
+        }
+        .nav17:hover{
+            background-color: black;
+            color: white;
+        }
+        .nav18:hover{
+            background-color: black;
+            color: white;
+        }
+        .nav19:hover{
+            background-color: black;
+            color: white;
+        }
+        .nav20:hover{
+            background-color: black;
+            color: white;
+        }
+        .nav21:hover{
+            background-color: black;
+            color: white;
+        }
+        .nav22:hover{
+            background-color: black;
+            color: white;
+        }
+        .nav23:hover{
+            background-color: black;
+            color: white;
+        }
+        .nav24:hover{
+            background-color: black;
+            color: white;
+        }
+        .nav25:hover{
+            background-color: black;
+            color: white;
+        }
+        .nav26:hover{
+            background-color: black;
+            color: white;
+        }
+        .nav27:hover{
+            background-color: black;
+            color: white;
+        }
+        .nav28:hover{
+            background-color: black;
+            color: white;
+        }
+        .nav29:hover{
+            background-color: black;
+            color: white;
+        }
+        .nav30:hover{
+            background-color: black;
+            color: white;
+        }
+        .nav31:hover{
+            background-color: black;
+            color: white;
+        }
+        .nav32:hover{
+            background-color: black;
+            color: white;
+        }
+        .nav33:hover{
+            background-color: black;
+            color: white;
+        }
+        .nav34:hover{
+            background-color: black;
+            color: white;
+        }
+        .nav35:hover{
+            background-color: black;
+            color: white;
+        }
+        .nav36:hover{
+            background-color: black;
+            color: white;
+        }
+        .nav37:hover{
+            background-color: black;
+            color: white;
+        }
+        .nav38:hover{
+            background-color: black;
+            color: white;
+        }
+        .nav39:hover{
+            background-color: black;
+            color: white;
+        }
+        .nav40:hover{
+            background-color: black;
+            color: white;
+        }
+        .nav41:hover{
+            background-color: black;
+            color: white;
+        }
+        .nav42:hover{
+            background-color: black;
+            color: white;
+        }
+        .nav43:hover{
+            background-color: black;
+            color: white;
+        }
+        .nav44:hover{
+            background-color: black;
+            color: white;
+        }
+        .nav45:hover{
+            background-color: black;
+            color: white;
+        }
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+        
+    </style>
+</head>
+
+<body>
+    <div class="tej">
+        <h1><big>PHP</big></h1>
+        <p>A web server programming language</p>
+        <button>
+            <a href="https://www.w3schools.com/php/default.asp">Learn PHP</a>
+        </button>
+    </div>
+    <div class="same">
+        <h1><big>jQuery</big></h1>
+        <p>A JS library for developing web pages</p>
+        <button>
+            <a href="https://www.w3schools.com/jquery/default.asp">Learn jQuery</a>
+        </button>
+    </div>
+    <div class="nav">
+        <h1><big>Java</big></h1>
+        <p>A programming language</p>
+        <button>
+            <a href="https://www.w3schools.com/java/default.asp">Learn Java</a>
+        </button>
+    </div>
+
+    <div class="nav1">
+        <h1><big>C++</big></h1>
+        <p>A programming language</p>
+        <button>
+            <a href="https://www.w3schools.com/cpp/default.asp">Learn C++</a>
+        </button>
+    </div>
+    <div class="nav2">
+        <h1><big>W3.CSS</big></h1>
+        <p>A CSS framework for faster and better responsive web pages</p>
+        <button>
+            <a href="https://www.w3schools.com/w3css/default.asp">Learn W3.CSS</a>
+        </button>
+    </div>
+    <div class="nav3">
+        <h1><big>Bootstrap</big></h1>
+        <p>A CSS framework for designing better web pages</p>
+        <button>
+            <a href="https://www.w3schools.com/bootstrap/bootstrap_ver.asp">Learn Bootstrap</a>
+        </button>
+    </div>
+    <div class="nav4">
+        <h1><big>C</big></h1>
+    </div>
+    <div class="nav5">
+        <h1><big>C#</big></h1>
+    </div>
+    <div class="nav6">
+        <h1><big>R</big></h1>
+    </div>
+    <div class="nav7">
+        <h1><big>Kotlin</big></h1>
+    </div>
+    <div class="nav8">
+        <h1><big>Node.js</big></h1>
+    </div>
+    <div class="nav9">
+        <h1><big>React</big></h1>
+    </div>
+    <div class="nav10">
+        <h1><big>JSON</big></h1>
+    </div>
+    <div class="nav11">
+        <h1><big>Vue</big></h1>
+    </div>
+    <div class="nav12">
+        <h1><big>MySQL</big></h1>
+    </div>
+    <div class="nav13">
+        <h1><big>XML</big></h1>
+    </div>
+    <div class="nav14">
+        <h1><big>Sass</big></h1>
+    </div>
+    <div class="nav15">
+        <h1><big>Icons</big></h1>
+    </div>
+    <div class="nav16">
+        <h1><big>RWD</big></h1>
+    </div>
+    <div class="nav17">
+        <h1><big>Graphics</big></h1>
+    </div>
+    <div class="nav18">
+        <h1><big>SVG</big></h1>
+    </div>
+    <div class="nav19">
+        <h1><big>Canvas</big></h1>
+    </div>
+    <div class="nav20">
+        <h1><big>Rasberry Pi</big></h1>
+    </div>
+    <div class="nav21">
+        <h1><big>Cyber Security</big></h1>
+    </div>
+    <div class="nav22">
+        <h1><big>Colors</big></h1>
+    </div>
+    <div class="nav23">
+        <h1><big>Git</big></h1>
+    </div>
+    <div class="nav24">
+        <h1><big>Matplotlib</big></h1>
+    </div>
+    <div class="nav25">
+        <h1><big>NumPy</big></h1>
+    </div>
+    <div class="nav26">
+        <h1><big>Pandas</big></h1>
+    </div>
+    <div class="nav27">
+        <h1><big>SciPy</big></h1>
+    </div>
+    <div class="nav28">
+        <h1><big>ASP</big></h1>
+    </div>
+    <div class="nav29">
+        <h1><big>AngularJS</big></h1>
+    </div>
+    <div class="nav30">
+        <h1><big>AppMl</big></h1>
+    </div>
+    <div class="nav31">
+        <h1><big>Go</big></h1>
+    </div>
+    <div class="nav32">
+        <h1><big>TypeScript</big></h1>
+    </div>
+    <div class="nav33">
+        <h1><big>Django</big></h1>
+    </div>
+    <div class="nav34">
+        <h1><big>MangoDB</big></h1>
+    </div>
+    <div class="nav35">
+        <h1><big>Statistics</big></h1>
+    </div>
+    <div class="nav36">
+        <h1><big>Data Science</big></h1>
+    </div>
+    <div class="nav37">
+        <h1><big>Typing Speed</big></h1>
+    </div>
+    <div class="nav38">
+        <h1><big>How to</big></h1>
+    </div>
+    <div class="nav39">
+        <h1><big>Code Game</big></h1>
+    </div>
+    <div class="nav40">
+        <h1><big>Spaces</big></h1>
+    </div>
+    <div class="nav41">
+        <h1><big>PostgreSQL</big></h1>
+    </div>
+    <div class="nav42">
+        <h1><big>Excel</big></h1>
+    </div>
+    <div class="nav43">
+        <h1><big>DSA-Data Structures and Algorithms</big></h1>
+    </div>
+    <div class="nav44">
+        <h1><big>Machine Learning</big></h1>
+    </div>
+    <div class="nav45">
+        <h1><big>Artificial Intelligence</big></h1>
+    </div>
+
+</body>
+
+</html>
